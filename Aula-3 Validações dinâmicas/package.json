@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "dependencies": {
+    "cypress": "^13.5.0"
+  }
+}

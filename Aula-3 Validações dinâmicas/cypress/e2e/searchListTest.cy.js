@@ -32,7 +32,7 @@ describe('Product Search', () => {
       productSearchPage.search(item.label)
       productSearchPage.productList.first().should('have.attr', 'title', item.label)
       productSearchPage.productList.each(e => {
-        expect(e.attr('title')).eq(item.label)
+        expect(e.attr('tittle')).eq(item.label)
       })
     });
   })
